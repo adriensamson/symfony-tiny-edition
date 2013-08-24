@@ -1,0 +1,14 @@
+{
+    "name": "adriensamson/symfony-tiny-edition",
+    "description": "A symfony tiny edition",
+    "require": {
+        "symfony/symfony": "2.3.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrien Samson",
+            "email": "adrien@kyklydse.com"
+        }
+    ]
+}
