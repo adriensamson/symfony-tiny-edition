@@ -1,14 +1,12 @@
 {
     "name": "adriensamson/symfony-tiny-edition",
     "description": "A symfony tiny edition",
+    "type": "project",
     "require": {
         "symfony/symfony": "2.3.*"
     },
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Adrien Samson",
-            "email": "adrien@kyklydse.com"
-        }
-    ]
+    "autoload": {
+        "psr-0": { "": "src/" }
+    }
 }
