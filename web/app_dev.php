@@ -3,7 +3,7 @@
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Debug\Debug;
 
-require_once __DIR__.'/../vendor/autoload.php';
+require_once __DIR__.'/../app/autoload.php';
 Debug::enable();
 
 require_once __DIR__.'/../app/AppKernel.php';
