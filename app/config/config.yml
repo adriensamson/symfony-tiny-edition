@@ -2,7 +2,7 @@ imports:
     - { resource: parameters.yml }
 
 framework:
-    secret: %secret%
+    secret: "%secret%"
     router:
         resource: "%kernel.root_dir%/config/routing.yml"
         strict_requirements: ~
@@ -18,6 +18,6 @@ framework:
     http_method_override: true
 
 twig:
-    debug:            %kernel.debug%
-    strict_variables: %kernel.debug%
+    debug:            "%kernel.debug%"
+    strict_variables: "%kernel.debug%"
 
