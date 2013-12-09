@@ -12,8 +12,10 @@ framework:
     templating:
         engines: ['twig']
     default_locale:  "%locale%"
+    trusted_hosts:   ~
     trusted_proxies: ~
-    session:         ~
+    session:
+        handler_id:  ~
     fragments:       ~
     http_method_override: true
 
