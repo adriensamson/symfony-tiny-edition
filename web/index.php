@@ -4,8 +4,6 @@ require_once __DIR__.'/../app/autoload.php';
 
 use Symfony\Component\HttpFoundation\Request;
 
-require_once __DIR__.'/../app/AppKernel.php';
-
 $kernel = new AppKernel('prod', false);
 $kernel->loadClassCache();
 

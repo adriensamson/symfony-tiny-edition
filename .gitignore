@@ -1,8 +1,4 @@
 /composer.lock
-/app/cache/*
 /app/config/parameters.yml
-/app/logs/*
-!app/cache/.gitkeep
-!app/logs/.gitkeep
+/var/
 /vendor/
-/web/bundles/
